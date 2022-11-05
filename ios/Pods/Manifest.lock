@@ -1,0 +1,31 @@
+PODS:
+  - Au10tixCore (3.9.0)
+  - Au10tixDetectorManager (3.9.0):
+    - Au10tixCore
+  - Au10tixSmartDocumentCaptureKit (3.9.0):
+    - Au10tixCore
+    - Au10tixDetectorManager
+    - Au10tixSourceManager
+  - Au10tixSourceManager (3.9.0):
+    - Au10tixCore
+
+DEPENDENCIES:
+  - Au10tixCore
+  - Au10tixSmartDocumentCaptureKit
+
+SPEC REPOS:
+  https://github.com/au10tixmobile/iOS_Artifacts_cocoapods_spec.git:
+    - Au10tixCore
+    - Au10tixDetectorManager
+    - Au10tixSmartDocumentCaptureKit
+    - Au10tixSourceManager
+
+SPEC CHECKSUMS:
+  Au10tixCore: 993aa4404ecf3b34269b040819bab8313389b93b
+  Au10tixDetectorManager: c5c7e851ab4097a2b80999ebe6faf92f71495ec1
+  Au10tixSmartDocumentCaptureKit: 4a02fefe75e3ae3f1779e6ff39fcfffc6b59fab7
+  Au10tixSourceManager: 193da8f4d88f83a8822cab2949cd12d7120b8fea
+
+PODFILE CHECKSUM: f32549f721c43eff5231942d80d548dccd9e7eaa
+
+COCOAPODS: 1.11.3

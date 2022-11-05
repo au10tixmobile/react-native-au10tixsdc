@@ -147,5 +147,10 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "react-native-au10tixsdk": "file:../react-native-au10tixsdk",
+    "react-navigation": "^4.4.4",
+    "react-navigation-stack": "^2.10.4"
   }
 }

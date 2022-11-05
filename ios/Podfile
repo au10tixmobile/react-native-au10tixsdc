@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '11.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/au10tixmobile/iOS_Artifacts_cocoapods_spec.git'
+
+
+target 'Au10tixsdc' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Au10tixsdc
+  pod 'Au10tixCore'
+  pod 'Au10tixSmartDocumentCaptureKit'
+
+
+end

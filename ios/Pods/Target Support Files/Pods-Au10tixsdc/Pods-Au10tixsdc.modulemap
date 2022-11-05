@@ -1,0 +1,6 @@
+framework module Pods_Au10tixsdc {
+  umbrella header "Pods-Au10tixsdc-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -11,13 +11,16 @@ Pod::Spec.new do |s|
   s.license      = package["license"]
   s.authors      = package["author"]
 
-  s.platforms    = { :ios => "10.0" }
+  s.platforms    = { :ios => "11.0" }
   s.source       = { :git => "https://medium.com/reactivelions/how-to-build-a-react-native-plugin-in-2021-60704edc0c28.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m,mm,swift}"
 
   s.dependency "React-Core"
-
+  s.dependency 'Au10tixCore', '3.9.0'
+  s.dependency 'Au10tixSmartDocumentCaptureKit', '3.9.0'
+  s.dependency 'react-native-au10tixsdk'
+  
   # Don't install the dependencies when we run `pod install` in the old architecture.
   if ENV['RCT_NEW_ARCH_ENABLED'] == '1' then
     s.compiler_flags = folly_compiler_flags + " -DRCT_NEW_ARCH_ENABLED=1"

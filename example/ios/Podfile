@@ -6,6 +6,10 @@ install! 'cocoapods', :deterministic_uuids => false
 
 ENV['RCT_NEW_ARCH_ENABLED'] = '0'
 
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/au10tixmobile/iOS_Artifacts_cocoapods_spec.git'
+
+
 target 'Au10tixsdcExample' do
   config = use_native_modules!
 
